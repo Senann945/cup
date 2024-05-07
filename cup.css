@@ -1,0 +1,109 @@
+*{background-color: aqua;}
+
+.btn{background-color: white; 
+    width:300px;
+    height: 30px ;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;}
+
+    .divs{ background-color: white;
+        width: 300px;
+        height: 200px;
+    border-bottom-left-radius: 90px;
+    border-bottom-right-radius: 90px;} 
+
+
+
+
+
+
+    .devs{
+    background-color: white;
+    width: 200px;
+    height: 200px; 
+    border-top-left-radius: 100px; 
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius:100px;
+    opacity: 0.5;
+    position: relative; top: 400px;
+    animation: move 5s infinite;}
+
+    @keyframes move{ 
+        from {bottom: 0px;}
+        to{bottom: 30px;} }
+    
+.dev{background-color: white;
+    width: 100px;
+    height: 100px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    opacity: 0.5;
+    margin: 0px;
+    position: relative; top: 300px;
+    animation-delay: 3s;
+    animation: move 5s infinite;}
+
+    @keyframes move{ 
+        from {bottom: 0px;}
+        to{bottom: 20px;} 
+    }
+
+
+    .deva{background-color: white;
+        width: 100px;
+        height: 100px;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        opacity: 0.5;
+        position: relative; top: 300px;
+        animation-name: move 5s infinite;
+        animation-delay: 1s;
+        animation-direction: alternate;
+        animation-fill-mode: ;
+        margin:0px;}
+    
+        @keyframes move{ 
+            from{bottom: 0px;}
+            to{bottom: 10px;} }
+
+     .devv{background-color: white;
+                width: 200px;
+                height: 200px;
+                border-top-left-radius: 100px;
+                border-top-right-radius: 100px;
+                border-bottom-left-radius: 100px;
+                border-bottom-right-radius: 100px;
+                opacity: 0.5;
+                position: relative; top: 10px;
+                animation: move 5s infinite;}
+            
+                @keyframes move{ 
+                    from{bottom: 0px;}
+                    to{bottom: 100px;} }
+
+
+                 
+
+                    
+    .qulp{width: 100px;
+    height: 120px;
+    background-color: white;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;}
+
+    .cup{display: flex;}
+
+.cups{ width: 70px;
+    height: 70px;
+    margin-top: 25px;
+    margin-left: 0px;
+    background-color: aqua;
+    border-top-right-radius: 50px;
+border-bottom-right-radius: 50px;}
+
+.bigdiv{margin-left: 500px;}
